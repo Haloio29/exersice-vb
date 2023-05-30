@@ -1,5 +1,6 @@
 ﻿Imports System.Data
 Imports System.Data.SqlClient
+Imports System.Text
 Imports Microsoft.Data.SqlClient
 
 Public Class Form1
@@ -39,6 +40,7 @@ Public Class Form1
         cmdOpen.ExecuteNonQuery()
 
         Dim drOpen As SqlDataReader = cmdOpen.ExecuteReader
+
         If drOpen.HasRows Then
             query = "update stock set" &
                     "nama = '" & Trim(txtNama.Text) & "'," &
@@ -63,8 +65,111 @@ Public Class Form1
 
         conn.Close()
 
+
+
+
         MessageBox.Show("Data telah di simpan!!!")
         Clear()
         txtKode.Select()
+        txtKode.Text = ""
+    End Sub
+    Private Sub txtKode_LostFocus(sender As Object, e As EventArgs) Handles txtKode.LostFocus
+        If Trim(txtKode.Text) <> "" Then
+            Dim cmdOpen As New SqlCommand
+            If conn.State = ConnectionState.Open Then conn.Close()
+            conn.Open()
+            cmdOpen.Connection = conn
+            query = "SELECT * FROM stok WHERE kode_stok = '" & Trim(txtKode.Text) & "'"
+            cmdOpen.CommandText = query
+
+            PictureBox1.Image = Nothing
+
+            Dim drOpen As SqlDataReader = cmdOpen.ExecuteReader
+            If drOpen.HasRows Then
+                While drOpen.Read()
+                    txtKode.Text = drOpen("kode_stok").ToString
+                    txtNama.Text = drOpen("nama").ToString
+                    txtJenis.Text = drOpen("jenis").ToString
+                    txtJual.Text = Format(drOpen("harga_jual"), "##,#0.00")
+                    txtBeli.Text = Format(drOpen("harga_beli"), "##,#0.00")
+                    txtSisa.Text = Format(drOpen("sisa_toko"), "##,##0")
+                    txtLokasi.Text = drOpen("lokasi_file").ToString
+
+                    If Trim(txtLokasi.Text) <> "" Then
+                        On Error Resume Next
+                        PictureBox1.Load(txtLokasi.Text)
+                    End If
+                End While
+            Else
+                Clear()
+                txtNama.Select()
+            End If
+            drOpen.Close()
+        End If
+    End Sub
+
+    Private Sub btnBatal_Click(sender As Object, e As EventArgs) Handles btnBatal.Click
+        Clear()
+    End Sub
+
+    Private Sub btnHapus_Click(sender As Object, e As EventArgs) Handles btnHapus.Click
+        If MessageBox.Show("Yakin mau di hapus?", "Ya", MessageBoxButtons.OKCancel) = vbOK Then
+            Dim cmdOpen As New SqlCommand
+
+            If conn.State = ConnectionState.Open Then conn.Close()
+            conn.Open()
+            cmdOpen.Connection = conn
+            query = "DELETE FROM stok WHERE kode_stok = '" & Trim(txtKode.Text) & "'"
+            cmdOpen.CommandText = query
+            cmdOpen.ExecuteNonQuery()
+            conn.Close()
+
+            MessageBox.Show("Data telah di hapus!")
+            Clear()
+            txtKode.Select()
+            txtKode.Text = ""
+        End If
+    End Sub
+
+    Private Sub txtJual_LostFocus(sender As Object, e As EventArgs) Handles txtJual.LostFocus
+        If Not IsNumeric(Trim(txtJual.Text)) Then txtJual.Text = 0
+        txtJual.Text = Format(CDec(txtJual.Text), "##,##0.00")
+    End Sub
+    Private Sub txtBeli_LostFocus(sender As Object, e As EventArgs) Handles txtBeli.LostFocus
+        If Not IsNumeric(Trim(txtBeli.Text)) Then txtBeli.Text = 0
+        txtBeli.Text = Format(CDec(txtBeli.Text), "##,##0.00")
+    End Sub
+    Private Sub txtSisa_LostFocus(sender As Object, e As EventArgs) Handles txtSisa.LostFocus
+        If Not IsNumeric(Trim(txtSisa.Text)) Then txtSisa.Text = 0
+        txtSisa.Text = Format(CDec(txtSisa.Text), "##,##0")
+    End Sub
+    Private Sub Form1_Closed(sender As Object, e As EventArgs) Handles MyBase.Closed
+        txtNama.Select()
+        If conn.State = ConnectionState.Open Then conn.Close()
+        conn = Nothing
+    End Sub
+    Private Sub txtJual_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtJual.KeyPress
+        If Asc(e.KeyChar) <> Asc(vbBack) Then
+            If Asc(e.KeyChar) < Asc(0) Or Asc(e.KeyChar) > Asc(9) Then
+                e.Handled = True
+            End If
+        End If
+    End Sub
+    Private Sub txtBeli_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtBeli.KeyPress
+        If Asc(e.KeyChar) <> Asc(vbBack) Then
+            If Asc(e.KeyChar) < Asc(0) Or Asc(e.KeyChar) > Asc(9) Then
+                e.Handled = True
+            End If
+        End If
+    End Sub
+    Private Sub txtSisa_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtSisa.KeyPress
+        If Asc(e.KeyChar) <> Asc(vbBack) Then
+            If Asc(e.KeyChar) < Asc(0) Or Asc(e.KeyChar) > Asc(9) Then
+                e.Handled = True
+            End If
+        End If
+    End Sub
+    Private Sub Form1_Deactivate(sender As Object, e As EventArgs) Handles Me.Deactivate
+        txtNama.Select()
     End Sub
 End Class

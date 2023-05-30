@@ -40,3 +40,5 @@ C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\refint\Latiha
 C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.pdb
 C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.genruntimeconfig.cache
 C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\ref\Latihan VB.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.Form2.resources
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.Form3.resources
