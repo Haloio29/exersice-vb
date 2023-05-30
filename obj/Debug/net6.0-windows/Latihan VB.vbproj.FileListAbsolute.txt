@@ -1,0 +1,42 @@
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Latihan VB.exe
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Latihan VB.deps.json
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Latihan VB.runtimeconfig.json
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Latihan VB.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Latihan VB.pdb
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.vbproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.Form1.resources
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.vbproj.GenerateResource.cache
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.AssemblyInfo.vb
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.vbproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.vbproj.CopyComplete
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\refint\Latihan VB.dll
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.pdb
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.genruntimeconfig.cache
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\ref\Latihan VB.dll
