@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form3
+Partial Class frmSupplier
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -44,6 +44,7 @@ Partial Class Form3
         ' 
         ' txtHP
         ' 
+        txtHP.BackColor = SystemColors.Control
         txtHP.Location = New Point(357, 322)
         txtHP.Name = "txtHP"
         txtHP.Size = New Size(291, 23)
@@ -52,6 +53,7 @@ Partial Class Form3
         ' label6
         ' 
         label6.AutoSize = True
+        label6.BackColor = SystemColors.Control
         label6.Location = New Point(249, 387)
         label6.Name = "label6"
         label6.Size = New Size(67, 15)
@@ -60,42 +62,47 @@ Partial Class Form3
         ' 
         ' btnCari
         ' 
+        btnCari.BackColor = SystemColors.Control
         btnCari.Location = New Point(534, 463)
         btnCari.Name = "btnCari"
         btnCari.Size = New Size(76, 24)
         btnCari.TabIndex = 53
         btnCari.Text = "Cari"
-        btnCari.UseVisualStyleBackColor = True
+        btnCari.UseVisualStyleBackColor = False
         ' 
         ' btnBatal
         ' 
+        btnBatal.BackColor = SystemColors.Control
         btnBatal.Location = New Point(452, 463)
         btnBatal.Name = "btnBatal"
         btnBatal.Size = New Size(76, 24)
         btnBatal.TabIndex = 52
         btnBatal.Text = "Batal"
-        btnBatal.UseVisualStyleBackColor = True
+        btnBatal.UseVisualStyleBackColor = False
         ' 
         ' btnHapus
         ' 
+        btnHapus.BackColor = SystemColors.Control
         btnHapus.Location = New Point(370, 463)
         btnHapus.Name = "btnHapus"
         btnHapus.Size = New Size(76, 24)
         btnHapus.TabIndex = 51
         btnHapus.Text = "Hapus"
-        btnHapus.UseVisualStyleBackColor = True
+        btnHapus.UseVisualStyleBackColor = False
         ' 
         ' btnSimpan
         ' 
+        btnSimpan.BackColor = SystemColors.Control
         btnSimpan.Location = New Point(288, 463)
         btnSimpan.Name = "btnSimpan"
         btnSimpan.Size = New Size(76, 24)
         btnSimpan.TabIndex = 50
         btnSimpan.Text = "Simpan"
-        btnSimpan.UseVisualStyleBackColor = True
+        btnSimpan.UseVisualStyleBackColor = False
         ' 
         ' txtKeterangan
         ' 
+        txtKeterangan.BackColor = SystemColors.Control
         txtKeterangan.Location = New Point(357, 387)
         txtKeterangan.Name = "txtKeterangan"
         txtKeterangan.Size = New Size(291, 23)
@@ -103,6 +110,7 @@ Partial Class Form3
         ' 
         ' txtTelepon
         ' 
+        txtTelepon.BackColor = SystemColors.Control
         txtTelepon.Location = New Point(357, 265)
         txtTelepon.Name = "txtTelepon"
         txtTelepon.Size = New Size(291, 23)
@@ -110,6 +118,7 @@ Partial Class Form3
         ' 
         ' txtKota
         ' 
+        txtKota.BackColor = SystemColors.Control
         txtKota.Location = New Point(357, 212)
         txtKota.Name = "txtKota"
         txtKota.Size = New Size(291, 23)
@@ -117,6 +126,7 @@ Partial Class Form3
         ' 
         ' txtAlamat
         ' 
+        txtAlamat.BackColor = SystemColors.Control
         txtAlamat.Location = New Point(357, 163)
         txtAlamat.Name = "txtAlamat"
         txtAlamat.Size = New Size(291, 23)
@@ -124,6 +134,7 @@ Partial Class Form3
         ' 
         ' txtNama
         ' 
+        txtNama.BackColor = SystemColors.Control
         txtNama.Location = New Point(357, 111)
         txtNama.Name = "txtNama"
         txtNama.Size = New Size(291, 23)
@@ -131,6 +142,7 @@ Partial Class Form3
         ' 
         ' txtKode
         ' 
+        txtKode.BackColor = SystemColors.Control
         txtKode.Location = New Point(357, 62)
         txtKode.Name = "txtKode"
         txtKode.Size = New Size(291, 23)
@@ -139,6 +151,7 @@ Partial Class Form3
         ' label5
         ' 
         label5.AutoSize = True
+        label5.BackColor = SystemColors.Control
         label5.Location = New Point(249, 322)
         label5.Name = "label5"
         label5.Size = New Size(45, 15)
@@ -148,6 +161,7 @@ Partial Class Form3
         ' label4
         ' 
         label4.AutoSize = True
+        label4.BackColor = SystemColors.Control
         label4.Location = New Point(249, 265)
         label4.Name = "label4"
         label4.Size = New Size(70, 15)
@@ -157,6 +171,7 @@ Partial Class Form3
         ' label3
         ' 
         label3.AutoSize = True
+        label3.BackColor = SystemColors.Control
         label3.Location = New Point(249, 212)
         label3.Name = "label3"
         label3.Size = New Size(31, 15)
@@ -166,6 +181,7 @@ Partial Class Form3
         ' label2
         ' 
         label2.AutoSize = True
+        label2.BackColor = SystemColors.Control
         label2.Location = New Point(249, 163)
         label2.Name = "label2"
         label2.Size = New Size(45, 15)
@@ -175,6 +191,7 @@ Partial Class Form3
         ' label1
         ' 
         label1.AutoSize = True
+        label1.BackColor = SystemColors.Control
         label1.Location = New Point(249, 111)
         label1.Name = "label1"
         label1.Size = New Size(39, 15)
@@ -184,16 +201,18 @@ Partial Class Form3
         ' label
         ' 
         label.AutoSize = True
+        label.BackColor = SystemColors.Control
         label.Location = New Point(249, 62)
         label.Name = "label"
-        label.Size = New Size(89, 15)
+        label.Size = New Size(80, 15)
         label.TabIndex = 38
-        label.Text = "Kode Customer"
+        label.Text = "Kode Supplier"
         ' 
-        ' Form3
+        ' frmSupplier
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.Lime
         ClientSize = New Size(909, 612)
         Controls.Add(txtHP)
         Controls.Add(label6)
@@ -213,8 +232,8 @@ Partial Class Form3
         Controls.Add(label2)
         Controls.Add(label1)
         Controls.Add(label)
-        Name = "Form3"
-        Text = "Form3"
+        Name = "frmSupplier"
+        Text = "Data Supplier"
         ResumeLayout(False)
         PerformLayout()
     End Sub

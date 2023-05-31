@@ -3,11 +3,11 @@ Imports System.Data.SqlClient
 Imports System.Text
 Imports Microsoft.Data.SqlClient
 
-Public Class Form1
+Public Class frmStok
     Dim query As String
     Dim conn As New SqlConnection
     Public Sub connect()
-        conn.ConnectionString = "Data Source = DESKTOP-OG4H5R3 ; Initial Catalog = JualBeli ; Encrypt=False ; Integrated Security = True"
+        conn.ConnectionString = "Data Source = DESKTOP-OG4H5R3 ; Initial Catalog = JualBeli ; Encrypt = False ; Integrated Security = True"
     End Sub
     Sub Clear()
         txtNama.Text = ""
@@ -18,7 +18,7 @@ Public Class Form1
         txtLokasi.Text = ""
         PictureBox1.Image = Nothing
     End Sub
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub frmStok_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         connect()
         txtKode.Text = ""
         Clear()
@@ -131,45 +131,45 @@ Public Class Form1
         End If
     End Sub
 
-    Private Sub txtJual_LostFocus(sender As Object, e As EventArgs) Handles txtJual.LostFocus
+    Private Sub txtJual_LostFocus(sender As Object, e As EventArgs)
         If Not IsNumeric(Trim(txtJual.Text)) Then txtJual.Text = 0
         txtJual.Text = Format(CDec(txtJual.Text), "##,##0.00")
     End Sub
-    Private Sub txtBeli_LostFocus(sender As Object, e As EventArgs) Handles txtBeli.LostFocus
+    Private Sub txtBeli_LostFocus(sender As Object, e As EventArgs)
         If Not IsNumeric(Trim(txtBeli.Text)) Then txtBeli.Text = 0
         txtBeli.Text = Format(CDec(txtBeli.Text), "##,##0.00")
     End Sub
-    Private Sub txtSisa_LostFocus(sender As Object, e As EventArgs) Handles txtSisa.LostFocus
+    Private Sub txtSisa_LostFocus(sender As Object, e As EventArgs)
         If Not IsNumeric(Trim(txtSisa.Text)) Then txtSisa.Text = 0
         txtSisa.Text = Format(CDec(txtSisa.Text), "##,##0")
     End Sub
-    Private Sub Form1_Closed(sender As Object, e As EventArgs) Handles MyBase.Closed
+    Private Sub frmStok_Closed(sender As Object, e As EventArgs) Handles MyBase.Closed
         txtNama.Select()
         If conn.State = ConnectionState.Open Then conn.Close()
         conn = Nothing
     End Sub
-    Private Sub txtJual_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtJual.KeyPress
+    Private Sub txtJual_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Asc(e.KeyChar) <> Asc(vbBack) Then
             If Asc(e.KeyChar) < Asc(0) Or Asc(e.KeyChar) > Asc(9) Then
                 e.Handled = True
             End If
         End If
     End Sub
-    Private Sub txtBeli_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtBeli.KeyPress
+    Private Sub txtBeli_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Asc(e.KeyChar) <> Asc(vbBack) Then
             If Asc(e.KeyChar) < Asc(0) Or Asc(e.KeyChar) > Asc(9) Then
                 e.Handled = True
             End If
         End If
     End Sub
-    Private Sub txtSisa_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtSisa.KeyPress
+    Private Sub txtSisa_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Asc(e.KeyChar) <> Asc(vbBack) Then
             If Asc(e.KeyChar) < Asc(0) Or Asc(e.KeyChar) > Asc(9) Then
                 e.Handled = True
             End If
         End If
     End Sub
-    Private Sub Form1_Deactivate(sender As Object, e As EventArgs) Handles Me.Deactivate
+    Private Sub frmStok_Deactivate(sender As Object, e As EventArgs) Handles MyBase.Deactivate
         txtNama.Select()
     End Sub
 End Class

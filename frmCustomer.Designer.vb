@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class frmCustomer
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -190,10 +190,11 @@ Partial Class Form2
         label.TabIndex = 19
         label.Text = "Kode Customer"
         ' 
-        ' Form2
+        ' frmCustomer
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(0), CByte(192), CByte(192))
         ClientSize = New Size(887, 646)
         Controls.Add(txtHP)
         Controls.Add(label6)
@@ -213,8 +214,8 @@ Partial Class Form2
         Controls.Add(label2)
         Controls.Add(label1)
         Controls.Add(label)
-        Name = "Form2"
-        Text = "Form2"
+        Name = "frmCustomer"
+        Text = "Data Customer"
         ResumeLayout(False)
         PerformLayout()
     End Sub

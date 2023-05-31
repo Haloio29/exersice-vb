@@ -28,7 +28,6 @@ C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\runtimes\win-
 C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\user\OneDrive\Dokumen\Latihan VB\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.vbproj.AssemblyReference.cache
-C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.Form1.resources
 C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.vbproj.GenerateResource.cache
 C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.AssemblyInfoInputs.cache
@@ -40,5 +39,6 @@ C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\refint\Latiha
 C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.pdb
 C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan VB.genruntimeconfig.cache
 C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\ref\Latihan VB.dll
-C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.Form2.resources
-C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.Form3.resources
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.frmCustomer.resources
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.frmStok.resources
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.frmSupplier.resources
