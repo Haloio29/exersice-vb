@@ -1,6 +1,6 @@
 is_global = true
 build_property.ApplicationManifest = 
-build_property.StartupObject = Latihan_VB.frmCustomer
+build_property.StartupObject = Latihan_VB.mdiMenu
 build_property.ApplicationDefaultFont = 
 build_property.ApplicationHighDpiMode = 
 build_property.ApplicationUseCompatibleTextRendering = 

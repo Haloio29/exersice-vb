@@ -4,10 +4,22 @@
     <Compile Update="frmCustomer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmListCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmListStok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmListSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmStok.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="mdiMenu.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

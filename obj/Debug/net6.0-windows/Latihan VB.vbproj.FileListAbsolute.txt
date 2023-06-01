@@ -42,3 +42,7 @@ C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\ref\Latihan V
 C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.frmCustomer.resources
 C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.frmStok.resources
 C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.frmSupplier.resources
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.frmListCustomer.resources
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.frmListStok.resources
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.frmListSupplier.resources
+C:\Users\user\OneDrive\Dokumen\Latihan VB\obj\Debug\net6.0-windows\Latihan_VB.mdiMenu.resources

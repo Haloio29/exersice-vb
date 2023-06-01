@@ -73,7 +73,7 @@ Public Class frmStok
         txtKode.Select()
         txtKode.Text = ""
     End Sub
-    Private Sub txtKode_LostFocus(sender As Object, e As EventArgs) Handles txtKode.LostFocus
+    Public Sub txtKode_LostFocus(sender As Object, e As EventArgs) Handles txtKode.LostFocus
         If Trim(txtKode.Text) <> "" Then
             Dim cmdOpen As New SqlCommand
             If conn.State = ConnectionState.Open Then conn.Close()
